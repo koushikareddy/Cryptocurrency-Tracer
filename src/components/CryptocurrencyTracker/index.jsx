@@ -1,6 +1,6 @@
 // Write your code here
 import {Component} from 'react'
-import Loader from 'react-loader-spinner'
+//import Loader from 'react-loader-spinner'
 
 import CryptocurrenciesList from '../CryptocurrenciesList'
 
@@ -11,7 +11,7 @@ const apiUrl = 'https://apis.ccbp.in/crypto-currency-converter'
 class CryptocurrencyTracker extends Component {
   state = {
     cryptocurrenciesData: [],
-    isLoading: true,
+    isLoading: false,
   }
 
   componentDidMount() {
